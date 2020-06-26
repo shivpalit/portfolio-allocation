@@ -20,7 +20,6 @@ class Portfolio:
         print(self.stocks)
     
     def addstock(self,s,ds,de):
-        #s,ds,de
         '''
         adds the historical stock data to dataframe used in following methods
 
@@ -190,6 +189,11 @@ class Portfolio:
         '''
         Prints the allocation in format:
         Stock (weight): $value @ $shar_price (# of shares)r: expected annual return%
+
+	invest = investment amount in dollars ($USD)
+	min_ex = minimum exposure of stock in the portfolio expressed as a percentage
+	max_ex = maximum exposure of stock in the portfolio expressed as a percentage
+
         '''
 
         
